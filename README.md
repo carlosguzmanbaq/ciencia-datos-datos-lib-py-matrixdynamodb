@@ -583,6 +583,7 @@ Ver ejemplo completo en: `examples/co_delfos_productos_srf_transformar_remittanc
 - **Flatten**: `dynamodb_curated_library/etl/transform/utils/README.md`
 - **Tests Flatten**: `tests/flatten_dynamodb/README.md`
 - **Tests End-to-End**: `tests/examples/remittances_order_status/README.md`
+- **Hudi**: `dynamodb_curated_library/core/config/hudi/README.md`
 
 ## 🤝 Contribución
 
