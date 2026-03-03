@@ -1,0 +1,44 @@
+description: "Tabla que contiene los datos curados de los usuarios bloqueados en el app movil"
+columns:
+  - name: customer_id
+    description: "ID de cliente. Ejemplo: CC_123456789"
+  - name: phone_number
+    description: "Numero de telefono del cliente. Ejemplo: 3023345678"
+  - name: email
+    description: "Correo electronico del cliente: Ejemplo: pperez@gmail.com"
+  - name: first_name
+    description: "Nombre del cliente. Ejemplo: PEPITO PEREZ"
+  - name: risk
+    description: "Indicador de riesgo. Ejemplo: bajo"
+  - name: products_remittances
+    description: "Indicador de remesas. Ejemplo: true"
+  - name: products_credits
+    description: "Indicador de creditos: Ejemplo: false"
+  - name: products_paypal
+    description: "Indicador de paypal: Ejemplo: false"
+  - name: products_savings_account
+    description: "Indicador de cuenta de ahorros: Ejemplo: false"
+  - name: creation_date
+    description: "Fecha de creacion. Ejemplo: 2025-11-06"
+  - name: update_date
+    description: "Fecha de actualizacion. Ejemplo: 2025-11-06"
+  - name: notified
+    description: "Indicador de notificacion. Ejemplo: true"
+  - name: notification_date
+    description: "Fecha de notificacion. Ejemplo: 2025-11-06"
+  - name: notifications
+    description: "Listado de notificaciones. Ejemplo: [{'messageId': 'c39c23d','type': 'temp','notifiedDate': '2025-10-30','notified': true,'notificationDate': '2025-09-10'}]"
+  - name: id_reward
+    description: "ID de recompensa. Ejemplo: CC_123456789"
+  - name: momento_ingestion
+    description: "Momento de ingesta de datos. Ejemplo: 2025-11-06 20:19:31"
+  - name: job_process_date
+    description: "Fecha de procesamiento del job. Ejemplo: 2025-11-06"
+  - name: job_process_type
+    description: "Tipo de procesamiento del job. Ejemplo: FULL"
+  - name: year
+    description: "Año (partición)"
+  - name: month
+    description: "Mes (partición)"
+  - name: day
+    description: "Día (partición)"

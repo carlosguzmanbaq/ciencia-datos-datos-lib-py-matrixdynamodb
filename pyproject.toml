@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "matrix-dynamodb-curated-library"
+version = "1.0.3"
+description = "Librería Python para AWS Glue que procesa datos exportados de DynamoDB usando PySpark y Apache Hudi"
+readme = "README.md"
+packages = [{include = "dynamodb_curated_library"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+boto3 = "1.40.23"
+PyYAML = "6.0.3"
+typing-extensions = "4.15.0"
+
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.4.1"
+pytest-cov = "7.0.0"
+awsglue-dev = "2021.12.30"
+awsglue3-local = "1.0.0"
+pyspark = "3.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --cov=dynamodb_curated_library --cov=examples --cov-report=term-missing"
+
+[tool.coverage.run]
+source = ["dynamodb_curated_library", "examples"]
+omit = ["*/tests/*", "*/dev_utils/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
