@@ -219,8 +219,7 @@ pip install -r requirements.txt
 - **AWS Glue**: Compatible con Glue 4.0
 
 ### Mas información acerca de Poetry
-- [GUIA-POETRY](https://grupobancolombia.visualstudio.com.mcas.ms/Nequi/_wiki/wikis/Nequi.wiki/474675/GUIA-POETRY)
-- [PYPROJECT TOML EXPLAINED](https://grupobancolombia.visualstudio.com.mcas.ms/Nequi/_wiki/wikis/Nequi.wiki/474677/PYPROJECT-TOML-EXPLAINED)
+- [GUIA-POETRY](https://python-poetry.org/docs/)
 
 ## 🏗️ Arquitectura
 
