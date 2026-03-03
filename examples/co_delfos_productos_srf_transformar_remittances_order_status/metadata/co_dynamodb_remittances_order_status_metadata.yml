@@ -1,0 +1,137 @@
+columns:
+  - name: conciliation_id
+    description: "ID de conciliación de la orden"
+  - name: count_retry
+    description: "Contador de reintentos de la transacción"
+  - name: creation_date
+    description: "Fecha de creación del registro"
+  - name: creation_date_tstamp
+    description: "Timestamp de creación del registro"
+  - name: customer_apellido1
+    description: "Primer apellido del cliente"
+  - name: customer_apellido2
+    description: "Segundo apellido del cliente"
+  - name: customer_celular
+    description: "Número de celular del cliente"
+  - name: customer_cif_id
+    description: "ID CIF del cliente"
+  - name: customer_correo_electronico
+    description: "Correo electrónico del cliente"
+  - name: customer_document_id
+    description: "ID del documento del cliente"
+  - name: customer_estado_id
+    description: "ID del estado del cliente"
+  - name: customer_fecha_expedicion
+    description: "Fecha de expedición del documento del cliente"
+  - name: customer_fecha_nacimiento
+    description: "Fecha de nacimiento del cliente"
+  - name: customer_is_full_sign_up
+    description: "Indicador si el cliente completó el registro completo"
+  - name: customer_is_use_regulation
+    description: "Indicador si el cliente acepta regulaciones"
+  - name: customer_nombre1
+    description: "Primer nombre del cliente"
+  - name: customer_nombre2
+    description: "Segundo nombre del cliente"
+  - name: customer_numero_cuenta
+    description: "Número de cuenta del cliente"
+  - name: customer_numero_id
+    description: "Número de identificación del cliente"
+  - name: customer_tipo_id
+    description: "Tipo de identificación del cliente"
+  - name: customer_user_creation
+    description: "Usuario que creó el registro del cliente"
+  - name: message_id
+    description: "ID del mensaje"
+  - name: order_bene_document_id
+    description: "ID del documento del beneficiario"
+  - name: order_bene_document_type
+    description: "Tipo de documento del beneficiario"
+  - name: order_bene_first_name
+    description: "Primer nombre del beneficiario"
+  - name: order_bene_last_name
+    description: "Primer apellido del beneficiario"
+  - name: order_bene_last_name2
+    description: "Segundo apellido del beneficiario"
+  - name: order_bene_remittances_id
+    description: "ID de remesas del beneficiario"
+  - name: order_bene_second_name
+    description: "Segundo nombre del beneficiario"
+  - name: order_beneficiary_amount
+    description: "Monto para el beneficiario"
+  - name: order_beneficiary_currency
+    description: "Moneda del monto del beneficiario"
+  - name: order_country_from
+    description: "País de origen de la orden"
+  - name: order_date
+    description: "Fecha de la orden"
+  - name: order_date_timestamp
+    description: "Timestamp de la fecha de la orden"
+  - name: order_exchange_rate
+    description: "Tasa de cambio de la orden"
+  - name: order_full_response
+    description: "Respuesta completa de la orden"
+  - name: order_mobile_wallet_account_no
+    description: "Número de cuenta de billetera móvil"
+  - name: order_mobile_wallet_prefix
+    description: "Prefijo de billetera móvil"
+  - name: order_order_no
+    description: "Número de orden"
+  - name: order_payer_document_id
+    description: "ID del documento del pagador"
+  - name: order_payer_document_type
+    description: "Tipo de documento del pagador"
+  - name: order_payer_first_name
+    description: "Primer nombre del pagador"
+  - name: order_payer_last_name
+    description: "Primer apellido del pagador"
+  - name: order_payer_last_name2
+    description: "Segundo apellido del pagador"
+  - name: order_payer_remittances_id
+    description: "ID de remesas del pagador"
+  - name: order_payer_second_name
+    description: "Segundo nombre del pagador"
+  - name: order_payment_amount
+    description: "Monto del pago"
+  - name: order_payment_currency
+    description: "Moneda del pago"
+  - name: order_remittance_id
+    description: "ID de la remesa de la orden"
+  - name: order_sales_date
+    description: "Fecha de venta de la orden"
+  - name: order_id
+    description: "ID de la orden"
+  - name: phone_number
+    description: "Número de teléfono"
+  - name: remittance_id
+    description: "ID de la remesa"
+  - name: state_cause
+    description: "Causa del estado actual"
+  - name: state_code
+    description: "Código del estado"
+  - name: state_date
+    description: "Fecha del estado"
+  - name: state_date_tstamp
+    description: "Timestamp de la fecha del estado"
+  - name: state_status
+    description: "Estado actual de la orden"
+  - name: state_step
+    description: "Paso actual del estado"
+  - name: state_order_steps
+    description: "Pasos de la orden en formato JSON"
+  - name: id_reward
+    description: "ID de recompensa"
+  - name: flag_event_status
+    description: "Indicador de estado del registro"
+  - name: momento_ingestion
+    description: "Momento de ingesta de datos"
+  - name: job_process_date
+    description: "Fecha de procesamiento del job"
+  - name: job_process_type
+    description: "Tipo de procesamiento del job"
+  - name: year
+    description: "Año (partición)"
+  - name: month
+    description: "Mes (partición)"
+  - name: day
+    description: "Día (partición)"
