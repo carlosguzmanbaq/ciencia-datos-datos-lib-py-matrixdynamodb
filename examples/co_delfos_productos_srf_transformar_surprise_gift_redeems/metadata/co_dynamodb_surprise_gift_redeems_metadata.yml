@@ -1,0 +1,42 @@
+description: "Tabla curada de canjes de regalos sorpresa (Surprise Gift Redeems) desde DynamoDB"
+columns:
+  - name: client_id
+    description: "ID único del cliente que realiza el canje"
+  - name: document_number
+    description: "Número de documento de identificación del cliente"
+  - name: document_type
+    description: "Tipo de documento de identificación (ej: CC, NIT, etc.)"
+  - name: facebook_id
+    description: "ID de Facebook asociado al cliente"
+  - name: gift_code
+    description: "Código único del regalo canjeado"
+  - name: merchant_id
+    description: "ID del comercio donde se realizó el canje"
+  - name: phone_number
+    description: "Número de teléfono del cliente"
+  - name: reference1
+    description: "Referencia adicional 1 del canje"
+  - name: sub_type
+    description: "Subtipo de canje o transacción"
+  - name: subsidiary_id
+    description: "ID de la subsidiaria asociada"
+  - name: transaction_id
+    description: "ID único de la transacción de canje"
+  - name: tstamp
+    description: "Timestamp de cuando se realizó el canje"
+  - name: value
+    description: "Valor del regalo canjeado (decimal)"
+  - name: id_reward
+    description: "ID único compuesto del canje (client_id + tstamp)"
+  - name: momento_ingestion
+    description: "Momento en que se ingirió el dato al data lake"
+  - name: job_process_date
+    description: "Fecha de procesamiento del job"
+  - name: job_process_type
+    description: "Tipo de procesamiento (FULL o INC)"
+  - name: year
+    description: "Año de partición basado en tstamp"
+  - name: month
+    description: "Mes de partición basado en tstamp"
+  - name: day
+    description: "Día de partición basado en tstamp"
